@@ -22,7 +22,7 @@
       </geometry>
     </collision>
   </link>
-  <link name="Head_upper">
+  <!-- <link name="Head_upper">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <mass value="0.001" />
@@ -34,13 +34,13 @@
         <box size="0.12 0.12 0.12" />
       </geometry>
     </collision>
-  </link>
-  <joint name="Head_upper_joint" type="fixed" dont_collapse="true">
+  </link> -->
+  <!-- <joint name="Head_upper_joint" type="fixed" dont_collapse="true">
     <origin xyz="0.225 0 0.01" rpy="0 0 0" />
     <parent link="base" />
     <child link="Head_upper" />
     <axis xyz="0 0 0" />
-  </joint>
+  </joint> -->
   <link name="FL_hip">
     <inertial>
       <origin xyz="0.002621 5.2E-05 0.046852" rpy="0 0 0" />
